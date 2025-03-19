@@ -1,0 +1,209 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.sigla {
+    color: gold;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover, .tab-link.active {
+    color: gold;
+}
+
+/* Conteúdo */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Ocultando seções não ativas */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Estilizando produtos */
+.produto {
+    display: inline-block;
+    margin: 15px;
+    background: #3c3c3c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.produto img {
+    border-radius: 10px;
+}
+
+.produto p {
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+}
+
+/* Rodapé */
+footer {
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Estilizando o banner */
+.banner {
+    background: gold;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    animation: piscar 1.5s infinite alternate;
+}
+
+/* Animação para chamar atenção */
+@keyframes piscar {
+    from { background: gold; }
+    to { background: #ffd700; }
+}
+
+
+
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.sigla {
+    color: gold;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover, .tab-link.active {
+    color: gold;
+}
+
+/* Conteúdo */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Ocultando seções não ativas */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Estilizando produtos */
+.produto {
+    display: inline-block;
+    margin: 15px;
+    background: #3c3c3c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.produto img {
+    border-radius: 10px;
+}
+
+.produto p {
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+}
+
+/* Rodapé */
+footer {
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+footer {
+    display: none;
+}
